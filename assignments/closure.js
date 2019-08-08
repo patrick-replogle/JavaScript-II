@@ -2,10 +2,12 @@
 // Write a simple closure of your own creation.  Keep it simple!
 function first(){
   const name = "Patrick";
-  return `I am ${name}`;
+  console.log(`I am ${name}`);
+  debugger;
 
   function second(){
-    return `I am also ${name}`;
+    console.log(`I am also ${name}`);
+    debugger;
     
   }
   second();
