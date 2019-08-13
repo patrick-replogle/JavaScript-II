@@ -12,19 +12,17 @@ console.log(reference());
 
 //example 2:
 
-function first(){
+function first() {
   const name = "Patrick";
   console.log(`I am ${name}`);
-  debugger;
 
   function second(){
     console.log(`I am also ${name}`);
-    debugger; 
   }
   second();
 }
 
-console.log(first());
+first();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
